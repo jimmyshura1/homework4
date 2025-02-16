@@ -1,5 +1,5 @@
 <script setup>
-    import {defineProps} from 'vue'
+    import {defineProps} from 'vue';
 
     const props = defineProps({
         total: {
@@ -8,11 +8,10 @@
         }
     })
 
-
 </script>
 
 
-<template>
+<template>  
     <h4>Your Balance</h4>
     <h1 id="balance">{{ total }}</h1>
 

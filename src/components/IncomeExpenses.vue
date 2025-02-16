@@ -8,7 +8,7 @@
         },
         expense: {
             type: Number,
-            require: true
+            require: true,
         }
     })
 
